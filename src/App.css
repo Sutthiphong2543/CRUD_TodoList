@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;1,200;1,300;1,400&display=swap');
+
+*{
+  font-family: 'Prompt', sans-serif;
+  font-style: italic;
+}
+
+
+body{
+  background: #E4E4E4 !important;
+}
+.input_todo{
+  display: flex;
+  justify-content: center;
+}
+.card {
+  width: 700px;
+  margin: auto;
+}
+.card-body{
+  border-radius: 25px;
+  height: 60px;
+  color: rgb(0, 0, 0) !important;
+}
+.card-body{
+  background: #FFFFFF;
+  display: grid;
+  grid-template-columns: 65px auto 110px;
+  /* justify-content: space-between; */
+}
+.main-container{
+  padding: 15px;
+  margin: 25px 0;
+  height: auto;
+  background: #a1cac6 !important;
+  border-radius: 7px;
+  box-shadow: 0 15px 20px rgba(0,0,0,0.30);
+
+}
+.header-title{
+  font-weight:900;
+}
+.btn.btn-add{
+  background: #333030;
+  color: #FFFFFF;
+}
+.btn.btn-add:hover{
+  border: 1.5px solid #333030;
+}
+h5{
+  text-decoration: line-through;
+}
+
+#myText {
+  text-decoration: none;
+}
+#myCheckbox:checked ~ #myText {
+  text-decoration: line-through;
+  color: #a1cac6;
+}
